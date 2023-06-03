@@ -10,4 +10,13 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="welcome">Bienvenido</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="have_account_login">Ya tienes cuenta? Inicia sesión</string>
+    <string name="create_account_btn">Cree su cuenta aquí</string>
+
 </resources>
