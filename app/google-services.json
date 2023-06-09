@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "146113728217",
+    "project_id": "fir-blog-a0c48",
+    "storage_bucket": "fir-blog-a0c48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146113728217:android:2b867e26aa8df0b657f8c8",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDtukq_PTPDV5vt4ky6xgcrQTRmDhlFj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
