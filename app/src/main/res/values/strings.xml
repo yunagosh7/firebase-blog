@@ -28,5 +28,7 @@
     <string name="dialog_accept">Aceptar</string>
     <string name="dialog_cancel">Cancelar</string>
 
+    <string name="sv_text">Busca un título</string>
+
 
 </resources>

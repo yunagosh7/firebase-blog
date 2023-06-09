@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         binding.appBarMain.fab.setOnClickListener { view ->
             Snackbar.make(view, "Añadir la tarea", Snackbar.LENGTH_SHORT)
                 .setAction("Action", null).show()
+
         }
 
         val currentUser = auth.currentUser

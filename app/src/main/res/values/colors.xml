@@ -10,4 +10,11 @@
 
     <color name="transparent">#00000000</color>
     <color name="button_pulsed">#0C000000</color>
+
+    <color name="post_date">#B1B1B1</color>
+
+    <color name="home_background">#DAE0E6</color>
+    <color name="home_search_view_background">#F6F7F8</color>
+
+
 </resources>
