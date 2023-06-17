@@ -49,9 +49,8 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Añadir la tarea", Snackbar.LENGTH_SHORT)
-                .setAction("Action", null).show()
-
+            // Snackbar.make(view, "Añadir la tarea", Snackbar.LENGTH_SHORT).setAction("Action", null).show()
+            navigateToCreatePost()
         }
 
         val currentUser = auth.currentUser
@@ -78,6 +77,12 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+    }
+
+    private fun navigateToCreatePost() {
+        val intent = Intent(this, CreatePostActivity::class.java)
+        intent.putExtra("userEmail", auth.currentUser!!.email)
+        startActivity(intent)
     }
 
 
@@ -116,7 +121,6 @@ class MainActivity : AppCompatActivity() {
                 logout()
                 view.dismiss()
             }.setNegativeButton(R.string.dialog_cancel) { view, _ ->
-                Toast.makeText(this, "Cancel", Toast.LENGTH_SHORT).show()
                 view.dismiss()
             }
             .setCancelable(false)

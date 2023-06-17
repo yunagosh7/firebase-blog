@@ -24,11 +24,14 @@
     <string name="have_account_login">Ya tienes cuenta? Inicia sesión</string>
     <string name="create_account_btn">Cree su cuenta aquí</string>
 
-    <string name="dialog_title">¿Seguro que desea cerrar la sesión?</string>
-    <string name="dialog_accept">Aceptar</string>
+    <string name="dialog_title">¿Seguro que desea cerrar la sesión?</string><string name="dialog_accept">Aceptar</string>
     <string name="dialog_cancel">Cancelar</string>
 
     <string name="sv_text">Busca un título</string>
+    <string name="next">Siguiente</string>
 
-
+    <string name="title">Título</string>
+    <string name="post_body">Cuerpo de la publicación</string>
+    <string name="category">Categoría</string>
+    
 </resources>

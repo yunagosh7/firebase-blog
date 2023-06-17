@@ -14,7 +14,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:hint="@string/sv_text"
+        app:queryHint="@string/sv_text"
         android:background="@color/home_search_view_background"
         app:iconifiedByDefault="false"/>
 
