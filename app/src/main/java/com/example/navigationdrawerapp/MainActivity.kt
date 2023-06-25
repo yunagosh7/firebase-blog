@@ -48,10 +48,6 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
 
-        binding.appBarMain.fab.setOnClickListener { view ->
-            // Snackbar.make(view, "Añadir la tarea", Snackbar.LENGTH_SHORT).setAction("Action", null).show()
-            navigateToCreatePost()
-        }
 
         val currentUser = auth.currentUser
 
@@ -79,11 +75,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun navigateToCreatePost() {
-        val intent = Intent(this, CreatePostActivity::class.java)
-        intent.putExtra("userEmail", auth.currentUser!!.email)
-        startActivity(intent)
-    }
 
 
     private fun navigateToLogin() {

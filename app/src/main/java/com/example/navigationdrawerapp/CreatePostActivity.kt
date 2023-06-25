@@ -83,7 +83,6 @@ class CreatePostActivity : AppCompatActivity() {
             btnCreatePost.setTextColor(getColor(R.color.white))
             btnCreatePost.isEnabled = true
             btnCreatePost.setOnClickListener {
-                Toast.makeText(this@CreatePostActivity, "Post created", Toast.LENGTH_SHORT).show()
                 createPost()
             }
         }
@@ -105,6 +104,8 @@ class CreatePostActivity : AppCompatActivity() {
             likes = 0L,
         )
         database.child("posts").push().setValue(post)
+        Toast.makeText(this, "Post created", Toast.LENGTH_SHORT).show()
+        finish()
     }
 
     private fun getCurrentDate(): String {

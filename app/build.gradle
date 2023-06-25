@@ -61,4 +61,8 @@ dependencies {
 
     // Realtime Database
     implementation 'com.google.firebase:firebase-database-ktx'
+
+    // FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:8.0.0'
+
 }
